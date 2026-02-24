@@ -3,58 +3,76 @@ export interface Project {
   title: string;
   description: string;
   youtubeId: string;
-  category: string;
+  category: "Long Form" | "Motion Graphics" | "Short Form";
+  featured?: boolean;
+  isShort?: boolean;
 }
 
-export const showreel: Project = {
-  id: "showreel",
-  title: "Showreel 2025",
-  description: "A collection of my best work from the past year.",
-  youtubeId: "dQw4w9WgXcQ",
-  category: "Showreel",
-};
-
 export const projects: Project[] = [
+  // ⭐ Featured
   {
-    id: "project-1",
-    title: "Brand Commercial",
-    description: "A high-energy commercial for a lifestyle brand.",
-    youtubeId: "dQw4w9WgXcQ",
-    category: "Commercial",
+    id: "breakdown-series",
+    title: "Breakdown Series P1",
+    description:
+      "In-depth long-form breakdown with engaging visuals and pacing.",
+    youtubeId: "bZ63ThJ0WVE",
+    category: "Long Form",
+    featured: true,
   },
   {
-    id: "project-2",
-    title: "Music Video",
-    description: "Cinematic music video with creative color grading.",
-    youtubeId: "dQw4w9WgXcQ",
-    category: "Music Video",
+    id: "orbit-launch",
+    title: "Orbit Launch Video",
+    description:
+      "Motion graphics launch video for Orbit — a SaaS product.",
+    youtubeId: "-39sKlPDIuQ",
+    category: "Motion Graphics",
+    featured: true,
   },
   {
-    id: "project-3",
-    title: "Documentary Short",
-    description: "A compelling short documentary about urban culture.",
-    youtubeId: "dQw4w9WgXcQ",
-    category: "Documentary",
+    id: "cody",
+    title: "Cody",
+    description:
+      "Punchy short-form talking head edit with dynamic cuts.",
+    youtubeId: "r9Mpmdeu7v8",
+    category: "Short Form",
+    featured: true,
+    isShort: true,
+  },
+
+  // Regular projects
+  {
+    id: "first-dollar",
+    title: "What Helped Me Make My First Dollar Online",
+    description:
+      "Long-form talking head video for a content creator.",
+    youtubeId: "nBdVa7g9L-M",
+    category: "Long Form",
   },
   {
-    id: "project-4",
-    title: "Corporate Video",
-    description: "Professional corporate overview with motion graphics.",
-    youtubeId: "dQw4w9WgXcQ",
-    category: "Corporate",
+    id: "orbit-ad",
+    title: "Orbit AD",
+    description:
+      "Short motion graphics ad for Orbit's marketing campaign.",
+    youtubeId: "GCaA33rtCvs",
+    category: "Motion Graphics",
+    isShort: true,
   },
   {
-    id: "project-5",
-    title: "Social Media Campaign",
-    description: "Series of short-form edits for social media.",
-    youtubeId: "dQw4w9WgXcQ",
-    category: "Social Media",
+    id: "th-8",
+    title: "TH 8",
+    description:
+      "Fast-paced short-form talking head content.",
+    youtubeId: "bCs_64SEYiQ",
+    category: "Short Form",
+    isShort: true,
   },
   {
-    id: "project-6",
-    title: "Event Highlight",
-    description: "Dynamic event recap with fast-paced editing.",
-    youtubeId: "dQw4w9WgXcQ",
-    category: "Event",
+    id: "confidence",
+    title: "Confidence Comes Last, Not First",
+    description:
+      "Engaging short-form edit with sharp cuts and captions.",
+    youtubeId: "LQflpVhu1Xk",
+    category: "Short Form",
+    isShort: true,
   },
 ];

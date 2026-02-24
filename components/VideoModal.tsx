@@ -30,6 +30,8 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onClose]);
 
+  const isShort = project?.isShort;
+
   return (
     <AnimatePresence>
       {project && (
@@ -45,7 +47,7 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ type: "spring", duration: 0.4 }}
-            className="relative w-full max-w-4xl"
+            className={`relative ${isShort ? "w-full max-w-sm" : "w-full max-w-4xl"}`}
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -56,7 +58,11 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
               <X size={28} />
             </button>
 
-            <div className="aspect-video w-full overflow-hidden rounded-xl bg-black">
+            <div
+              className={`w-full overflow-hidden rounded-xl bg-black ${
+                isShort ? "aspect-[9/16]" : "aspect-video"
+              }`}
+            >
               <iframe
                 src={`https://www.youtube.com/embed/${project.youtubeId}?autoplay=1&rel=0`}
                 title={project.title}

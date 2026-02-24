@@ -2,12 +2,15 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { showreel, projects, type Project } from "@/data/projects";
+import { projects, type Project } from "@/data/projects";
 import VideoCard from "./VideoCard";
 import VideoModal from "./VideoModal";
 
 export default function WorkSection() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+
+  const featured = projects.filter((p) => p.featured);
+  const rest = projects.filter((p) => !p.featured);
 
   return (
     <section id="work" className="bg-muted px-6 py-24">
@@ -22,38 +25,56 @@ export default function WorkSection() {
             My Work
           </h2>
           <p className="mx-auto mb-12 max-w-md text-center text-muted-foreground">
-            A selection of projects showcasing my editing style and creative
-            approach.
+            Long-form edits, short-form content, and motion graphics
+            for creators and SaaS companies.
           </p>
         </motion.div>
 
-        {/* Showreel */}
+        {/* Featured projects — large cards */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-16"
+          className="mb-6"
         >
-          <div className="mx-auto max-w-4xl overflow-hidden rounded-xl bg-black shadow-2xl">
-            <div className="aspect-video w-full">
-              <iframe
-                src={`https://www.youtube.com/embed/${showreel.youtubeId}?rel=0`}
-                title={showreel.title}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="h-full w-full"
-              />
-            </div>
-          </div>
-          <p className="mt-4 text-center text-sm font-medium text-muted-foreground">
-            {showreel.title}
+          <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+            Featured
           </p>
         </motion.div>
 
-        {/* Project grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, i) => (
+        <div className="mb-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {featured.map((project, i) => (
+            <motion.div
+              key={project.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+            >
+              <VideoCard
+                project={project}
+                onClick={() => setSelectedProject(project)}
+              />
+            </motion.div>
+          ))}
+        </div>
+
+        {/* All other projects */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="mb-6"
+        >
+          <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+            More Work
+          </p>
+        </motion.div>
+
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {rest.map((project, i) => (
             <motion.div
               key={project.id}
               initial={{ opacity: 0, y: 20 }}

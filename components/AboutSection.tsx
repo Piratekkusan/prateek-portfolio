@@ -3,14 +3,14 @@
 import { motion } from "framer-motion";
 
 const skills = [
+  "Short Form Editing",
+  "Long Form Editing",
+  "Motion Graphics",
   "Adobe Premiere Pro",
   "After Effects",
-  "DaVinci Resolve",
-  "Final Cut Pro",
-  "Motion Graphics",
+  "Talking Head Videos",
+  "SaaS Launch Videos",
   "Color Grading",
-  "Sound Design",
-  "Storytelling",
 ];
 
 export default function AboutSection() {
@@ -27,11 +27,10 @@ export default function AboutSection() {
             About Me
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-center text-lg leading-relaxed text-muted-foreground">
-            I&apos;m a freelance video editor with a passion for visual
-            storytelling. I help brands, creators, and businesses bring their
-            vision to life through compelling video content. From concept to
-            final cut, I focus on delivering polished, engaging edits that
-            resonate with audiences.
+            I&apos;m a freelance video editor specializing in short-form and
+            long-form talking head content for creators, and motion graphics
+            ads for SaaS companies. I focus on sharp pacing, dynamic cuts,
+            and clean visuals that keep viewers engaged.
           </p>
         </motion.div>
 
