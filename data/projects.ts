@@ -12,7 +12,7 @@ export const projects: Project[] = [
   // ⭐ Featured
   {
     id: "breakdown-series",
-    title: "Breakdown Series P1",
+    title: "Long Form Breakdown",
     description:
       "In-depth long-form breakdown with engaging visuals and pacing.",
     youtubeId: "bZ63ThJ0WVE",
@@ -21,7 +21,7 @@ export const projects: Project[] = [
   },
   {
     id: "orbit-launch",
-    title: "Orbit Launch Video",
+    title: "SaaS Product Launch",
     description:
       "Motion graphics launch video for Orbit — a SaaS product.",
     youtubeId: "-39sKlPDIuQ",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
   },
   {
     id: "cody",
-    title: "Cody",
+    title: "Talking Head Edit",
     description:
       "Punchy short-form talking head edit with dynamic cuts.",
     youtubeId: "r9Mpmdeu7v8",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
   // Regular projects
   {
     id: "first-dollar",
-    title: "What Helped Me Make My First Dollar Online",
+    title: "Creator Long Form",
     description:
       "Long-form talking head video for a content creator.",
     youtubeId: "nBdVa7g9L-M",
@@ -50,7 +50,7 @@ export const projects: Project[] = [
   },
   {
     id: "orbit-ad",
-    title: "Orbit AD",
+    title: "Motion Graphics Ad",
     description:
       "Short motion graphics ad for Orbit's marketing campaign.",
     youtubeId: "GCaA33rtCvs",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
   },
   {
     id: "th-8",
-    title: "TH 8",
+    title: "Short Form Edit",
     description:
       "Fast-paced short-form talking head content.",
     youtubeId: "bCs_64SEYiQ",
