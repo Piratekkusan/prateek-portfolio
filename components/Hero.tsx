@@ -13,8 +13,8 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="shrink-0"
         >
-          <Image
-            src="/prateek.png"
+          <img
+            src="/prateek-portfolio/prateek.png"
             alt="Prateek Singh"
             width={320}
             height={420}
