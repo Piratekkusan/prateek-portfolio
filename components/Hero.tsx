@@ -14,7 +14,7 @@ export default function Hero() {
           className="shrink-0"
         >
           <Image
-            src="/Prateek Profile pic.png"
+            src="/prateek.png"
             alt="Prateek Singh"
             width={320}
             height={420}
