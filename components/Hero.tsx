@@ -21,7 +21,6 @@ export default function Hero() {
             className="rounded-2xl object-cover shadow-2xl"
           />
         </motion.div>
-
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -35,13 +34,9 @@ export default function Hero() {
             Prateek Singh
           </h1>
           <p className="mb-10 max-w-lg text-lg text-muted-foreground">
-            Most videos get watched. Few get remembered. Fewer still make
-            someone buy. Specializing in the gap between those three.
+            Most videos get watched. Few get remembered. Fewer still make someone buy. Specializing in the gap between those three.
           </p>
-          
-            href="#work"
-            className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-dark"
-          >
+          <a href="#work" className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-dark">
             View My Work
             <ArrowDown size={16} />
           </a>
