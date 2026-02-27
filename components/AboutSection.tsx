@@ -28,10 +28,9 @@ export default function AboutSection() {
             About Me
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-center text-lg leading-relaxed text-muted-foreground">
-            I&apos;m a freelance video editor specializing in short-form and
-            long-form talking head content for creators, and motion graphics
-            ads for SaaS companies. I focus on sharp pacing, dynamic cuts,
-            and clean visuals that keep viewers engaged.
+           Most videos get edited. Few get watched till the end. Fewer still make someone buy.
+           Specializing in the gap between those three with sharp cuts, motion graphics, and
+           pacing built around one metric: retention.
           </p>
         </motion.div>
 
