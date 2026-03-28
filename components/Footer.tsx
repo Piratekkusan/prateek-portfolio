@@ -2,7 +2,7 @@ import { Youtube, Instagram, Linkedin, Mail } from "lucide-react";
 
 const socialLinks = [
   { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+  { icon: Instagram, href: "https://instagram.com/letsgoprateek", label: "Instagram" },
 ];
 
 export default function Footer() {
