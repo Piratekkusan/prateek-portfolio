@@ -1,7 +1,7 @@
-import { Youtube, Instagram, Linkedin, Mail } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 const socialLinks = [
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Mail, href: "mailto:pratiiksan@gmail.com", label: "Email" },
   { icon: Instagram, href: "https://instagram.com/letsgoprateek", label: "Instagram" },
 ];
 
