@@ -68,10 +68,10 @@ export const projects: Project[] = [
   },
   {
     id: "confidence",
-    title: "Confidence Comes Last, Not First",
+    title: "High Quality Clients",
     description:
       "Engaging short-form edit with sharp cuts and captions.",
-    youtubeId: "LQflpVhu1Xk",
+    youtubeId: "9v5FKtPL2wI",
     category: "Short Form",
     isShort: true,
   },
