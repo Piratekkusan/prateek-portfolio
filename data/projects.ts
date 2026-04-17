@@ -7,7 +7,6 @@ export interface Project {
   featured?: boolean;
   isShort?: boolean;
 }
-
 export const projects: Project[] = [
   // ⭐ Featured
   {
@@ -29,16 +28,15 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "cody",
-    title: "Talking Head Edit",
+    id: "confidence",
+    title: "High Quality Clients",
     description:
-      "Punchy short-form talking head edit with dynamic cuts.",
-    youtubeId: "r9Mpmdeu7v8",
+      "Engaging short-form edit with sharp cuts and captions.",
+    youtubeId: "9v5FKtPL2wI",
     category: "Short Form",
     featured: true,
     isShort: true,
   },
-
   // Regular projects
   {
     id: "first-dollar",
@@ -67,11 +65,11 @@ export const projects: Project[] = [
     isShort: true,
   },
   {
-    id: "confidence",
-    title: "High Quality Clients",
+    id: "cody",
+    title: "Talking Head Edit",
     description:
-      "Engaging short-form edit with sharp cuts and captions.",
-    youtubeId: "9v5FKtPL2wI",
+      "Punchy short-form talking head edit with dynamic cuts.",
+    youtubeId: "r9Mpmdeu7v8",
     category: "Short Form",
     isShort: true,
   },
