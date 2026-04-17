@@ -8,12 +8,10 @@ export interface Project {
   isShort?: boolean;
 }
 export const projects: Project[] = [
-  // ⭐ Featured
   {
     id: "breakdown-series",
     title: "Long Form Breakdown",
-    description:
-      "In-depth long-form breakdown with engaging visuals and pacing.",
+    description: "In-depth long-form breakdown with engaging visuals and pacing.",
     youtubeId: "bZ63ThJ0WVE",
     category: "Long Form",
     featured: true,
@@ -21,8 +19,7 @@ export const projects: Project[] = [
   {
     id: "orbit-launch",
     title: "SaaS Product Launch",
-    description:
-      "Motion graphics launch video for Orbit — a SaaS product.",
+    description: "Motion graphics launch video for Orbit — a SaaS product.",
     youtubeId: "-39sKlPDIuQ",
     category: "Motion Graphics",
     featured: true,
@@ -30,27 +27,23 @@ export const projects: Project[] = [
   {
     id: "confidence",
     title: "High Quality Clients",
-    description:
-      "Engaging short-form edit with sharp cuts and captions.",
+    description: "Engaging short-form edit with sharp cuts and captions.",
     youtubeId: "9v5FKtPL2wI",
     category: "Short Form",
     featured: true,
     isShort: true,
   },
-  // Regular projects
   {
     id: "first-dollar",
     title: "Creator Long Form",
-    description:
-      "Long-form talking head video for a content creator.",
+    description: "Long-form talking head video for a content creator.",
     youtubeId: "nBdVa7g9L-M",
     category: "Long Form",
   },
   {
     id: "orbit-ad",
     title: "Motion Graphics Ad",
-    description:
-      "Short motion graphics ad for Orbit's marketing campaign.",
+    description: "Short motion graphics ad for Orbit's marketing campaign.",
     youtubeId: "GCaA33rtCvs",
     category: "Motion Graphics",
     isShort: true,
@@ -58,8 +51,7 @@ export const projects: Project[] = [
   {
     id: "th-8",
     title: "Short Form Edit",
-    description:
-      "Fast-paced short-form talking head content.",
+    description: "Fast-paced short-form talking head content.",
     youtubeId: "bCs_64SEYiQ",
     category: "Short Form",
     isShort: true,
@@ -67,10 +59,30 @@ export const projects: Project[] = [
   {
     id: "cody",
     title: "Talking Head Edit",
-    description:
-      "Punchy short-form talking head edit with dynamic cuts.",
+    description: "Punchy short-form talking head edit with dynamic cuts.",
     youtubeId: "r9Mpmdeu7v8",
     category: "Short Form",
     isShort: true,
+  },
+  {
+    id: "long-form-1",
+    title: "America's Middle Class Crisis",
+    description: "Long form intro edit for a finance creator covering the middle class crisis.",
+    youtubeId: "aEBDpch3eRM",
+    category: "Long Form",
+  },
+  {
+    id: "long-form-2",
+    title: "Polish Stock Market Breakdown",
+    description: "Long form intro edit for a finance creator covering Poland's market growth post-EU.",
+    youtubeId: "HWEkAHuivhE",
+    category: "Long Form",
+  },
+  {
+    id: "long-form-3",
+    title: "Music Producer Masterclass",
+    description: "Long form intro edit for an expert music producer sharing industry tips.",
+    youtubeId: "LsmFZejf1Es",
+    category: "Long Form",
   },
 ];
