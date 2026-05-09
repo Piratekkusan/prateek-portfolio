@@ -85,4 +85,11 @@ export const projects: Project[] = [
     youtubeId: "LsmFZejf1Es",
     category: "Long Form",
   },
+  {
+  id: "long-form-4",
+  title: "Start Your Online Business Now",
+  description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
+  youtubeId: "X2j4LRiR4QA",
+  category: "Long Form",
+  },
 ];
