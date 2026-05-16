@@ -41,18 +41,21 @@ export const projects: Project[] = [
     category: "Long Form",
     featured: true,
   },
+
+
+  
+  {
+   id: "long-form-4",
+   title: "Start Your Online Business Now",
+   description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
+   youtubeId: "X2j4LRiR4QA",
+   category: "Long Form",
+  },
   {
     id: "long-form-1",
     title: "America's Middle Class Crisis",
     description: "Long form intro edit for a finance creator covering the middle class crisis.",
     youtubeId: "aEBDpch3eRM",
-    category: "Long Form",
-  },
-  {
-    id: "long-form-2",
-    title: "Polish Stock Market Breakdown",
-    description: "Long form intro edit for a finance creator covering Poland's market growth post-EU.",
-    youtubeId: "HWEkAHuivhE",
     category: "Long Form",
   },
   {
@@ -63,19 +66,23 @@ export const projects: Project[] = [
     category: "Long Form",
   },
   {
+    id: "long-form-2",
+    title: "Polish Stock Market Breakdown",
+    description: "Long form intro edit for a finance creator covering Poland's market growth post-EU.",
+    youtubeId: "HWEkAHuivhE",
+    category: "Long Form",
+  },
+  
+
+
+  
+  {
     id: "cody",
     title: "Talking Head Edit",
     description: "Punchy short-form talking head edit with dynamic cuts.",
     youtubeId: "r9Mpmdeu7v8",
     category: "Short Form",
     isShort: true,
-  },
-  {
-    id: "first-dollar",
-    title: "Creator Long Form",
-    description: "Long-form talking head video for a content creator.",
-    youtubeId: "nBdVa7g9L-M",
-    category: "Long Form",
   },
   {
     id: "orbit-ad",
@@ -86,18 +93,18 @@ export const projects: Project[] = [
     isShort: true,
   },
   {
-   id: "long-form-4",
-   title: "Start Your Online Business Now",
-   description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
-   youtubeId: "X2j4LRiR4QA",
-   category: "Long Form",
-  },
-  {
     id: "th-8",
     title: "Short Form Edit",
     description: "Fast-paced short-form talking head content.",
     youtubeId: "bCs_64SEYiQ",
     category: "Short Form",
     isShort: true,
+  },
+    {
+    id: "first-dollar",
+    title: "Creator Long Form",
+    description: "Long-form talking head video for a content creator.",
+    youtubeId: "nBdVa7g9L-M",
+    category: "Long Form",
   },
 ];
