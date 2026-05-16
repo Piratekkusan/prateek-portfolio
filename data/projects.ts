@@ -9,6 +9,14 @@ export interface Project {
 }
 export const projects: Project[] = [
   {
+    id: "ai-agents",
+    title: "AI Agents",
+    description: "Long form intro edit",
+    youtubeId: "kBzj0ZXjbFI",
+    category: "Long Form",
+    featured: true,
+  },
+  {
     id: "breakdown-series",
     title: "Long Form Breakdown",
     description: "In-depth long-form breakdown with engaging visuals and pacing.",
@@ -49,12 +57,11 @@ export const projects: Project[] = [
     isShort: true,
   },
   {
-    id: "th-8",
-    title: "Short Form Edit",
-    description: "Fast-paced short-form talking head content.",
-    youtubeId: "bCs_64SEYiQ",
-    category: "Short Form",
-    isShort: true,
+  id: "long-form-4",
+  title: "Start Your Online Business Now",
+  description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
+  youtubeId: "X2j4LRiR4QA",
+  category: "Long Form",
   },
   {
     id: "cody",
@@ -86,10 +93,12 @@ export const projects: Project[] = [
     category: "Long Form",
   },
   {
-  id: "long-form-4",
-  title: "Start Your Online Business Now",
-  description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
-  youtubeId: "X2j4LRiR4QA",
-  category: "Long Form",
+    id: "th-8",
+    title: "Short Form Edit",
+    description: "Fast-paced short-form talking head content.",
+    youtubeId: "bCs_64SEYiQ",
+    category: "Short Form",
+    isShort: true,
   },
+ 
 ];
