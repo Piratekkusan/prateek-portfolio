@@ -9,14 +9,6 @@ export interface Project {
 }
 export const projects: Project[] = [
   {
-    id: "ai-agents",
-    title: "AI Agents",
-    description: "Long form intro edit",
-    youtubeId: "kBzj0ZXjbFI",
-    category: "Long Form",
-    featured: true,
-  },
-  {
     id: "breakdown-series",
     title: "Long Form Breakdown",
     description: "In-depth long-form breakdown with engaging visuals and pacing.",
@@ -42,34 +34,12 @@ export const projects: Project[] = [
     isShort: true,
   },
   {
-    id: "first-dollar",
-    title: "Creator Long Form",
-    description: "Long-form talking head video for a content creator.",
-    youtubeId: "nBdVa7g9L-M",
+    id: "ai-agents",
+    title: "AI Agents",
+    description: "Long form intro edit",
+    youtubeId: "kBzj0ZXjbFI",
     category: "Long Form",
-  },
-  {
-    id: "orbit-ad",
-    title: "Motion Graphics Ad",
-    description: "Short motion graphics ad for Orbit's marketing campaign.",
-    youtubeId: "GCaA33rtCvs",
-    category: "Motion Graphics",
-    isShort: true,
-  },
-  {
-  id: "long-form-4",
-  title: "Start Your Online Business Now",
-  description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
-  youtubeId: "X2j4LRiR4QA",
-  category: "Long Form",
-  },
-  {
-    id: "cody",
-    title: "Talking Head Edit",
-    description: "Punchy short-form talking head edit with dynamic cuts.",
-    youtubeId: "r9Mpmdeu7v8",
-    category: "Short Form",
-    isShort: true,
+    featured: true,
   },
   {
     id: "long-form-1",
@@ -93,6 +63,36 @@ export const projects: Project[] = [
     category: "Long Form",
   },
   {
+    id: "cody",
+    title: "Talking Head Edit",
+    description: "Punchy short-form talking head edit with dynamic cuts.",
+    youtubeId: "r9Mpmdeu7v8",
+    category: "Short Form",
+    isShort: true,
+  },
+  {
+    id: "first-dollar",
+    title: "Creator Long Form",
+    description: "Long-form talking head video for a content creator.",
+    youtubeId: "nBdVa7g9L-M",
+    category: "Long Form",
+  },
+  {
+    id: "orbit-ad",
+    title: "Motion Graphics Ad",
+    description: "Short motion graphics ad for Orbit's marketing campaign.",
+    youtubeId: "GCaA33rtCvs",
+    category: "Motion Graphics",
+    isShort: true,
+  },
+  {
+   id: "long-form-4",
+   title: "Start Your Online Business Now",
+   description: "Long form intro edit for a creator on why starting an online business today beats waiting.",
+   youtubeId: "X2j4LRiR4QA",
+   category: "Long Form",
+  },
+  {
     id: "th-8",
     title: "Short Form Edit",
     description: "Fast-paced short-form talking head content.",
@@ -100,5 +100,4 @@ export const projects: Project[] = [
     category: "Short Form",
     isShort: true,
   },
- 
 ];
